@@ -19,6 +19,9 @@
 .bg-color-three-reasons {
     background-color: #fff;
 }
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
 /*-----------------------------------Special paddings, margins & text----------------------------*/
 h1,
 h2,
@@ -42,7 +45,7 @@ h4 {
 }
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 15px 0 15px;
     float: none;
 }
 .section-heading {
@@ -50,13 +53,22 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    text-decoration: underline;
+}
+p {
+    margin: 0;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+.col-10 {
+    padding: 0 20px 0 20px;
 }
 /*-----------------------------------Heading----------------------------*/
 header {
     margin: 0;
 }
 .heading {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .logo {
     background: url("../Images/Profile\ pic.jpg");
@@ -174,5 +186,41 @@ footer {
     color: #e84610;
 }
 #footer-details{
-    padding:20px;
+    padding: 20px 20px 20px 0;
+}
+/*------------------------------------Three-reasons----------------------------*/
+.three-reasons-icon {
+    font-size: 28px;
+    color: #e67e22;
+}
+.three-reasons-heading {
+    margin-bottom: 10px;
+}
+/*------------------------------------Personal-info----------------------------*/
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;   
+}
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+.personal-info-item .key p {
+    font-weight: 700;
+}
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
 }
