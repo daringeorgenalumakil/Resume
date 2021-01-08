@@ -310,3 +310,9 @@ footer {
     margin: 0 auto;
     max-width: 70%;
 }
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #3498db;
+}
